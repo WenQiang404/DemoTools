@@ -1,9 +1,9 @@
 package controller
 
 import (
+	"DemoTools/interface-master/response"
+	"DemoTools/interface-master/service"
 	"github.com/gin-gonic/gin"
-	"interface/response"
-	"interface/service"
 )
 
 func ShowMemoryMessage(ctx *gin.Context) {
